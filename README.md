@@ -45,11 +45,10 @@ CREATE TABLE questions (
 ## 🧪 API Endpoints
 
 Method	Endpoint	Description
-GET	/api/questions	Get all questions
-GET	/api/questions/{id}	Get a question by ID
-POST	/api/questions	Create a new question
-PUT	/api/questions/{id}	Update an existing question
-DELETE	/api/questions/{id}	Delete a question by ID
+GET	/api/question/allQuestions	Get all questions
+GET	/api/question/category/{category}	Get a question by categroy
+POST	/api/question/add	Create a new question
+DELETE	/api/question/remove/{id}	Delete a question by ID
 
 🔮 Future Enhancements
 Add user authentication
